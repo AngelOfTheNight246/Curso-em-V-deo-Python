@@ -1,0 +1,5 @@
+pessoa = input('Qual o nome do passageiro ? ')
+reais = float(input('Quantos reais ele tem na carteira ? R$ '))
+dolarA = float(reais / 5.38)
+dolarG = float(reais / 3.27)
+print('O passageiro {} pode comprar até {:.2f} US$ \n em 2017 ele poderia comprar {:.2f}US$'.format(pessoa, dolarA, dolarG))

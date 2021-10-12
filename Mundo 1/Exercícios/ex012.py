@@ -1,0 +1,5 @@
+pro = input('Qual o produto você deseja ?')
+valor = float(input('Qual o valor do produto ?'))
+des = float((valor * 5) / 100)    
+np = float(valor - des)
+print('O produto {} custa {}, está com 5% de desconto, seu preço agora é de {:.2f}'.format(pro, valor, np))
